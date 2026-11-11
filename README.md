@@ -1,5 +1,9 @@
 # industrial-protocol-gateway
 
+[![CI](https://github.com/erencicekk25/industrial-protocol-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/erencicekk25/industrial-protocol-gateway/actions/workflows/ci.yml)
+![Language](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Sahadaki bir Modbus TCP cihazından veri okuyup bunu MQTT üzerinden JSON olarak yayınlayan bir endüstriyel gateway'in, **hiçbir donanıma ihtiyaç duymadan** yerel makinede çalışan C++17 simülasyonu.
 
 Tek bir komutla hem sanal bir saha cihazı (bir kompresör motoru) ayağa kalkıyor, hem de bu cihazı periyodik olarak sorgulayıp verisini bulut dünyasının anlayacağı formata çeviren gateway çalışmaya başlıyor. PLC, seri port dönüştürücü ya da broker kurmanıza gerek yok.
